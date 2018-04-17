@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ngara website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="js/bootstrap.js">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/logofull.png" style="margin-top: 25px;margin-left: 30px;"></a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ <!--  <div class="container-fluid"> -->
+    <!-- <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-3 col-lg-3">
+        <a href="index.html">
+          <img src="images/logofull.png" style="margin-top: 25px;margin-left: 30px;">
+        </a>
+      </div>
+      <div class=" col-sm-12 col-md-6 col-lg-6  naviagtion">
+          <ul>
+            <li class="nav-item"><a href="#index">HOME</a></li>
+            <li class="nav-item"> <a href="#services">SERVICES</a></li>
+            <li class="nav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+      </div>
+        <div class="col-sm-12 col-md-3">
+          <a href="login1.html">LOGIN</a>
+        </div> 
+      </div> 
+    </div> -->
+  
+
+  <div id="index" class=" row">
+    <div class=" col-sm-12 col-md-12 col-lg-12 image">
+    <div class=" col-sm-12 col-md-12 col-lg-12 text-center text" style=" ">
+      <h1 class="ngara">NG'ARA</h1>
+      <h4>A clean home is a happy home.</h4>
+      <button type="button" class="btn btn-primary btn-lg quote"><a href="#services">
+          <h4>Cleaning at its finest.</h4></a></button>
+
+    </div>
+    </div>
+  </div>
+  <!-- js function for a responsive nav-bar -->
+    <script>
+      function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } 
+      else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+		<!-- service page -->
+
+  <div class="container-fluid" id="services" style=" width: 100%">
+    <div class="caption">
+      GENERAL CLEANING AT 3% OFF
+    </div>
+    <div class="row request-service">
+      <div class="col-sm-12 col-md-2 col-lg-2"></div>
+      <!-- service order column -->
+      <div class="col-sm-12 col-md-4 col-lg-4 details" >
+        <div class="serve"  style="width:100%;">
+          <p>How many rooms?</p>
+          <select class="services" ="Rooms" name="services">
+            <option value="laundry"></option>
+            <option value="cleaning the house">2</option>
+            <option value="cleaning dishes">3</option>
+            <option value="cleaning dishes">4</option>
+            <option value="cleaning dishes">5</option>
+            <option value="cleaning dishes">6</option>
+            
+          </select>
+          <p>How many hours?</p>
+          <select class="services" ="services" name="services">
+            <option value="laundry"></option>
+            <option value="cleaning the house">2</option>
+            <option value="cleaning dishes">3</option>
+            <option value="cleaning dishes">4</option>
+            <option value="cleaning dishes">5</option>
+            <option value="cleaning dishes">6</option>
+            <option value="cleaning dishes">7</option>
+            <option value="cleaning dishes">8</option>
+            <option value="cleaning dishes">9</option>
+            <option value="cleaning dishes">10</option>
+            <option value="cleaning dishes">11</option>
+            <option value="cleaning dishes">12</option>
+          </select>
+            <p for="services">Services</p>
+          <select class="services" name="services">
+            <option value="laundry">Laundry</option>
+            <option value="cleaning the house">Kitchen</option>
+            <option value="cleaning dishes">compound</option>
+            <option value="cleaning dishes">Ironing</option>
+            <option value="cleaning dishes">general cleaning</option>
+          </select>
+            <p for="Services">Summary</p> 
+            <textarea type="text" placeholder="Your message" style="margin-bottom: 50px"></textarea>
+        </div>
+      </div>
+
+      <!-- personal details for ordering a service in a service page -->
+
+      <div class="col-sm-12 col-md-4 col-lg-4 details">
+        <div class="data" style="width:100%;">
+          <p style="color: #fff;">Personal details</p>
+          <input type="text" placeholder="Full name" style="margin-top: 10px">
+          <input type="text" placeholder="Contact number" class="input" >
+          <input type="text" placeholder="Email" class="input">
+          <select class="input" name="location" placeholder="location">
+            <option value="laundry">Jamhuri phase1</option>
+            <option value="cleaning the house">Jamhuri phase2</option>
+            <option value="cleaning dishes">Lavington</option>
+            <option value="cleaning dishes">Kileleshwa</option>
+            <option value="cleaning dishes">Karen</option>
+            <option value="cleaning dishes">Hurligham</option>
+          </select>
+          <!-- js calender section -->
+            <input id="datepicker" class="input" placeholder="Date" style="margin-bottom: 50px">
+            <script>
+            $(document).ready(function() {
+            $("#datepicker").datepicker();
+            });
+            </script>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-2 col-lg-2"></div>
+    </div>
+</div>
+
+<!-- request service button section -->
+  <div class="container-fluid order">
+    <div class="row text-center">
+      <div class="col-sm-12 col-md-4 col-lg-4"></div>
+      <div class="col-sm-12 col-md-4 col-lg-4">
+        <button class="request"><a href="">REQUEST SERVICE</a></button>  
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4"></div>
+    </div>
+  </div>
+
+    <!-- footer contact information -->
+    <div id="contact" class="row contact-information" >
+      <div class="col-sm-12 col-md-4" ></div>
+      <div class="col-sm-12 col-md-4 text-center" style="text-align:center; margin-top: 40px;">
+        <br>
+        <h5 class="talk">LET'S TALK</h5>
+        <p>
+          <span>
+            <a href="" style="color: white;">
+              ngaraservice@gmail.com
+            </a>
+          </span>
+        </p>
+        <p>
+          <span>
+            Tel:
+            <tel>
+              +254 702228727
+            </tel>
+          </span>
+        </p>
+        <p>
+          <span>
+            Nairobi,Kenya
+          </span>
+        </p>
+
+        <h6>
+          <i class="fa-fa-map-marker"></i>
+            NG'ARA OFFICE
+          <br>
+
+        </h6>
+          <p>
+            <span>
+              6th floor Senteu Plaza lenana road.
+            </span>
+          </p>
+      </div>
+      <div class="col-sm-12 col-md-4"></div>
+    </div>
+</body>
+</html>

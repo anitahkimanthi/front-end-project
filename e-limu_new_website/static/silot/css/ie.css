@@ -1,0 +1,5 @@
+.link img{
+filter:progid:DXImageTransform.Microsoft.Blur(strength=50), 
+                   progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)
+}
+

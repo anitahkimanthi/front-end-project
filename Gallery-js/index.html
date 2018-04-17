@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+<div class="gallery">
+	<div class="thumbnails" >
+	<img src="images/one.jpg" data-caption="Mosque">
+	<img src="images/two.jpg" data-caption="Gorilla">
+	<img src="images/three.jpg" data-caption="Tv">
+	<img src="images/four.jpg" data-caption="Athletes">
+	<img src="images/five.jpg" data-caption="Ocean">
+	<img src="images/six.jpg" data-caption="Girl">
+	<img src="images/seven.jpg" data-caption="Plane">
+	<img src="images/eight.jpg" data-caption="fashion">
+	</div>
+	
+	<div class="viewer">
+		
+	</div>
+</div>
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+<script>
+ // $(document).ready(function(){
+ // 	console.log('jquery is working');
+ // })
+ // $('.thumbnails').click(function(){
+ // 	$(this).hide(10000);
+ // })
+ $('.viewer').click(function(){
+ 	$('.thumbnails').toggle(1000);
+ })
+
+</script>
+
+</body>                   
+</html>

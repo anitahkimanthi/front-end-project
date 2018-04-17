@@ -1,0 +1,59 @@
+body{
+	background-color: #009688;
+
+}
+
+input{
+	width:370px;
+	height:55px;
+	background-color: #f2f2f2;
+	padding:15px;
+	box-sizing: border-box;
+	color: #bfbfbf;
+
+}
+.comment{
+	width:493px;
+	height: 394px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+button{
+	background-color: #009688;
+    color: #e1f2ce;
+    border: none;
+    width: 370px;
+    height: 55px;
+    margin-top: 30px;
+    margin: 0 auto;
+
+}
+ .password input{
+	margin-left:64px;
+	margin-top: 30px;
+	border: none;
+
+}
+.username input{
+	margin-left:64px;
+	margin-top: 60px;
+	border: none;
+
+}
+
+.login button{
+	margin-left:64px;
+	margin-top: 30px;
+	border: none;
+	margin-bottom: 10px;
+
+
+}
+.create{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #009688;
+}

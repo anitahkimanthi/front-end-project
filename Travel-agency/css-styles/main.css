@@ -1,0 +1,154 @@
+body{margin: 0;padding: 0; font-family: Lato,"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;}
+
+
+/*materialize styles*/
+/*.row .col .s6{ padding: 0 .7rem !important; min-height: 1px !important;}
+*/.row{ margin-bottom: 0 !important; }
+.row .col { float: left; box-sizing: border-box; padding: 0 .3rem !important; min-height: 1px;}
+.active { nbackground-color: #ddd; color: white;}
+
+/*header styles*/
+ul{ display: inline-block; height: 00px;}
+.side-nav { position: fixed; width: 300px !important; left: 0; top: 0; margin: 0; height: 50%; height: calc(100% + 60px) !important; height: -moz-calc(50%)!important; padding-bottom: 30px;}
+.background-image {background-size: cover;background-attachment: fixed;height: 600px;background-position:center;position: relative;background-repeat: no-repeat;}
+.upper {
+    padding: 20px;*/
+    position: absolute;
+    bottom: 0;
+    height:100%;
+    background:rgba(174,213,129,0.6); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px; 
+}
+.navigation{
+    width: 400px;
+    margin: 0 auto;
+}
+.upper .row{ padding-top: 10px }
+.content .brand-logo{ width: 100px;}
+nav .nav-wrapper ul li a { margin-top: 30px; font-size: 1.1rem !important }
+
+
+@media all and (max-width:500px){
+    .image{
+        font-size: 15px !important;
+
+    }
+   .content .brand-logo  {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    .content{
+        margin-top: 50px;
+    }
+    .content{
+        margin-top: 30px;
+    }
+    }
+
+    @media screen and (min-width:500px){
+        .
+    }
+
+.content{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image img {
+    vertical-align: middle;
+    width:100%;
+    height: auto;
+
+}
+
+.image .cover {
+    position: absolute;
+    bottom: 0;
+    vertical-align: middle;
+    height:100%;
+    background:rgba(174,213,129,0.6); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+
+
+}
+
+.img-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.img-wrap .caption {
+    height:100%;
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.35s ease;
+}
+.effect1:hover .caption {
+  transform: scaleY(1);
+}
+.caption-text h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff !important;
+}
+.caption-text{
+    z-index: 5;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 50%;   
+    padding-left: 10px;
+    transform: translateY(-50%); 
+    text-align: center;
+}
+.blur {
+    background:rgba(174,213,129,0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+}
+
+
+.galler-wrapper img { width: auto ; max-width: 100% ; height: auto  }
+.gallary-wrapper h5{ text-align: center; color: green; margin-bottom: 20px }
+.gallary-wrapper{ margin-top: 20px; box-sizing: border-box }
+
+
+.section { padding-top: 0rem !important; padding-bottom: 0rem !importa }
+
+/*mission and vission section styles*/
+.outer { position: relative; margin-top: 20px; width: 100%; background-size: cover; background-attachment: fixed; background-image:url(../img/m2.jpg); height:400px }
+.top { position: relative; height:400px; text-align:center; background:rgba(174,213,129,0.6); }
+.top .mision { color: white !important }
+.top .row { padding-top:80px; box-sizing: border-box }
+
+/*booking styles*/
+.card-image { height: 250px !important;}
+.booking{ padding-top: 50px; padding-bottom: 50px }
+
+/*contact style*/
+.map-wrapper { color: #388E3C; background-image: url(../img/contact1.jpg); background-repeat: repeat;background-attachment: fixed; display: block;  padding-top: 50px !important; padding-bottom: 50px !important; box-sizing:border-box;  background-attachment: fix }
+.contact{ background-color: white; margin-top: 20px }
+button{ height: 50px !important; width: 50% !important; background-color: #388E3C !important }
+
+/*footer styles*/
+.page-footer { color: #388E3C; background-color: #388E3C !important; background-repeat: repeat; display: block; padding-top: 100px !important; background-attachment: fix }
+.icons .fa{ font-size: 30px !important; padding-right: 20px; color: #BDBDBD; box-sizing: border-box }
+.footer-copyright{ margin-top: 80px }
+.social-icons .fa{ font-size:30px }
+

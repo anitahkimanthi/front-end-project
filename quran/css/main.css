@@ -1,0 +1,152 @@
+body{
+	background-color:#ededed;
+}
+
+header{
+	background-color:#a94f4f;
+	width:100%;
+	height: 50px;
+	margin:0 auto;
+	
+	}
+.name{
+	width: 1000px;
+	height:30px;
+	color:white;
+	margin:0 auto;
+}
+.anitah{
+	background-color: #ffffff;
+	width:1000px;
+	height:733px;
+	margin:0 auto;
+	
+
+}
+.anitah1{
+	background-color: #919191;
+	width:462.5px;
+	height:270px;
+	float:left;
+	margin-left:25px;
+	margin-top: 25px;
+
+
+}
+.anitah2{
+	background-color:#ffffff;
+	width:462.5px;
+	height:270px;
+	float:right;
+	margin-right: 25px;
+	margin-top: 25px;
+	 
+	font-family: arial;
+}
+.anitah2 a{
+	color:#b6505b;
+	text-decoration: none;
+}
+
+.anitah2 h1{
+ 	 color:#b85e60;
+}
+.anitah2 h3{
+	color:#9d9d9d;
+}
+.anitah2 hr{
+	color:#eeeeee;
+}
+.anitah3{
+	background-color:  #ffffff;
+	background-image: url(../images/qura1.jpg);
+	width:300px;
+	height: 204px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	float:left;
+	
+}
+.anitah4{
+	background-color:  #919191;
+	background-image: url(../images/qura.jpg);
+	width:300px;
+	height: 204px;
+	margin-right: 25px;
+	margin-top: 25px;
+	float:left;
+}
+.anitah5{
+	background-color:  #919191;
+	background-image: url(../images/dua.jpg);
+	width:300px;
+	height: 204px;
+	margin-right: 25px;
+	margin-top: 25px;
+	float:left;
+}
+.anitah6{
+	background-color: #ffffff;
+	width:300px;
+	height: 159px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 25px;
+	float:left;
+	font-family: arial;
+}
+.anitah6 h2{
+ 	 color:#bf767c;
+}
+.anitah7{
+	background-color:#ffffff;
+	width:300px;
+	height: 159px;
+	margin-right: 25px;
+	margin-top: 25px;
+	float:left;
+	font-family: arial;
+}
+.anitah7 h2{
+ 	 color:#bf767c;
+}
+.anitah8{
+	background-color: #ffffff;
+	width:300px;
+	height: 159px;
+	margin-right: 25px;
+	margin-top: 31px;
+	float:left;
+	margin-bottom: 25px;
+	font-family: arial;
+	
+	
+
+}
+.anitah8 a{
+	color:#af535e;
+	text-decoration: none;
+}
+.anitah8 h2{
+ 	 color:#bf767c;
+
+}
+.copyright{
+	color: #d3d3d3;
+	padding-top: 25px;
+	float:left;
+	font-family: arial;
+}
+.condition{
+	color: #d3d3d3;
+	padding-top: 25px;
+	float:right; \
+	font-family: arial;
+}
+ul li{
+	margin-left: -20px;
+	
+}
+
+

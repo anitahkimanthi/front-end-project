@@ -1,0 +1,395 @@
+
+body {
+    background-color: black;
+    background-size: contain;
+    font: 18px/1.6em 'handybold';
+    padding-top: 0px;
+    overflow-x: hidden;
+    
+}
+
+
+p { 
+	font-size: 18px;
+	line-height: 1.3em;
+ 	font-family: Arial, Helvetica, Sans-serif; 	
+}
+
+li{
+  line-height: 1.2em;
+  margin: 5px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@font-face {
+    font-family: 'handybold';
+    src: url('../../silot/fonts/handy_bold-webfont.eot');
+    src: url('../../silot/fonts/handy_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../silot/fonts/handy_bold-webfont.woff2') format('woff2'),
+         url('../../silot/fonts/handy_bold-webfont.woff') format('woff'),
+         url('../../silot/fonts/handy_bold-webfont.ttf') format('truetype'),
+         url('../../silot/fonts/handy_bold-webfont.svg#handybold') format('svg');
+    /*font-weight: bold;                                                                                                                        
+    font-style: normal;*/
+
+}
+
+/*@media (max-width: 767px) {
+    	
+	#main {
+		padding: 0 10px;
+		margin-right: -20px;
+		margin-left: -20px;	
+	}
+	
+	
+	.subnavbar {
+		margin-left: -20px;
+		margin-right: -20px;	
+	}
+	
+	
+	.subnavbar-inner {
+		height: auto;
+	}
+	
+	.subnavbar .container > ul {
+		width: 100%;
+		height: auto;
+		
+		border: none;
+	}
+	
+	.subnavbar .container > ul > li {
+		width: 33%;
+		height: 70px;
+		margin-bottom: 0;
+		
+		border: none;
+	}
+	
+    
+    
+    .subnavbar .container > ul > li.active > a {
+		font-size: 11px;
+    	background: transparent;
+    }
+	
+	.subnavbar .container > ul > li > a > i {	
+		display: inline-block;	
+		margin-bottom: 0;
+		
+		font-size: 20px;
+	}
+  */
+
+
+.breadcrumb {background: transparent; border: transparent;; display: block;     -webkit-box-shadow: inset 0 0px 0 #ffffff;}
+.breadcrumb li {font: 12pt/1.9em 'handybold'; font-weight: bold; text-shadow: none;}
+.breadcrumb a {color: #fff;}
+.breadcrumb a:hover {color: #000;}
+.breadcrumb>.active {color: #000;}
+.breadcrumb>li+li:before {color: #fff; content: "\002F\00a0"; padding-right: 5px;}
+
+
+.img-responsive {
+ display: block;
+ height: auto;
+ max-width: 100%;
+}
+
+/* Start of eLimu content CSS */
+
+.elimucontent {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elimupagetitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0px 0px 36px 0px;
+    line-height: 1.3em;
+}
+.elimucontent p{
+    font-size:18px;
+    
+}
+
+.elimucontent h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0px 0px 36px 0px;
+    line-height: 1.3em;
+}
+
+.elimucontent h2{
+    font-size: 1.5em;
+    color: #FFF;
+    font-weight: normal;
+    background-color: #ED5729;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top: medium solid white;
+    border-bottom: medium solid white;
+    margin: 36px 0px 36px 0px;
+}
+
+.elimucontent h3{
+    font-size: 1.5em;
+    line-height: 1.2em;
+    border-bottom: thin solid white;
+    padding-bottom: 7px;
+    font-weight: normal;
+    margin: 36px 0px 24px 0px;
+}
+
+.elimucontent h4{
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin: 14px 0px 14px 0px;
+}
+
+.elimucontent blockquote {
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 30px 30px 30px 30px;
+}
+
+.elimucontent ol {
+    background-color: #ED5729;
+    margin: 30px;
+    padding: 15px 15px 15px 40px;
+    border: thin solid #FFFFFF;
+    list-style-type: decimal;
+    
+}
+
+.elimucontent ul {
+    line-height: 1.2;
+    color: #FFFFFF;
+    list-style-type: disc;
+    margin: 15px 30px 15px 30px;
+    padding: 0px 16px 0px 41px;
+}
+
+.elimucontent table {
+    border: 2px solid white;
+    line-height: 1.3em;
+}
+
+.elimucontent td{
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.elimucontent strong {
+}
+
+.elimucontent em {
+}
+
+/* End of elimu content CSS */
+
+.elimufooter {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+.elimufooter textarea, input {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+.elimufooter table {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.elimufooter td:hover {
+    background-color: #000;
+}
+
+.elimufooter tbody tr:hover{
+    color: #FFF;
+    background-color: #000;
+}
+
+.elimufooter label{
+    color: #FFF;
+}
+
+.elimufooter h3{
+    font-weight: normal;
+}
+
+.elimufooter a:hover{
+    color: #FFF
+}
+
+.sidebar a{
+    font: 14pt/1.6em 'handybold';
+}
+
+.sidebar h3{
+font-family: 'handybold';
+font-size: 16pt; 
+line-height: 25pt; 
+padding-bottom: 7px;
+}
+.sidebar th{
+line-height: 20pt; 
+}
+
+.sidebar-nav-fixed h3{
+font-size: 16pt; 
+line-height: 25pt; 
+padding-bottom: 7px;
+}
+.sidebar-nav-fixed th{
+line-height: 20pt; 
+}
+
+.sidebar-nav-fixed a{
+    font: 14pt/1.6em 'handybold';
+}
+
+.footer{
+    margin:0px;
+}
+
+.elimutextarea{
+    width:420px;
+}
+
+a.active
+{
+    color: #000;
+    background-color: white;
+}
+
+.elimuvideo{
+    border-style: solid;
+    border-width: 10px;
+}
+
+.elimuquote {
+    background-color: #FF7F26;
+    border-style: solid;
+    padding: 10px;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: #fff;
+    max-width: 600px;
+    
+}
+
+/*testing bigstats class*/
+.bigstats{
+  font-size: 1.2em;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Rich text CSS since richtext ships with no CSS*/
+
+.rich-text img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.richtext-image.left {
+    float: left;
+    padding-right: 10pt;
+    overflow:hidden;
+}
+
+img.richtext-image.right {
+    float: right;
+    padding-left: 10pt;
+    overflow:hidden;
+}
+
+.responsive-object {
+    position: relative;
+}
+.responsive-object iframe,
+.responsive-object object,
+.responsive-object embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+img.img-responsive.carousel {
+    height: 372px;
+}
+.quizcontainer table tbody {
+
+    color: black;
+}
+
+.numberCircle {
+        
+    background: #ea5729;
+    border: 3px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 20px;
+    margin-right: -15px
+    
+}
+
+
+@media(min-width:768px){
+   .numberCircle {
+    margin-right: -35px;    
+    background: #ea5729;
+    border: 3px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 20px;
+        
+    
+}
+}
+
+
+.indexing{
+    position: relative;
+    z-index: 1;
+}

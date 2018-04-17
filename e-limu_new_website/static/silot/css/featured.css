@@ -1,0 +1,66 @@
+/*
+*most popular pages on learn alias featured content
+*/
+.popular-pages-header{
+    font-family: arial;
+    font-size: 1.6em;
+    margin-bottom:10px;
+    text-align:center;
+}
+.subject:hover{
+  background-color: #fff;
+}
+
+.featured-content{
+    background-color: #ea5729;
+    padding: 10px 0 10px 0;
+    color: #fff;
+    font-family: 'Kalam', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    border-radius: 5px;    
+    border: 1px solid #fff;
+        
+}
+.featured-content li{
+    font-size: 17px;
+    font-family: arial;
+    font-weight:normal;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+.featured-content:hover a {
+   color: #fff;
+}
+.featured-content:active a {
+   color: #fff;
+}
+.featured-content:visited a {
+   color: #303030;
+}
+
+.content{
+    font-family: 'Kalam', sans-serif;
+    font-weight: normal;
+    height: auto;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.link{
+    text-align: left;
+}
+.link:hover a{
+    color: black;
+}
+.link:visited a{
+    color: black;
+}
+
+.list-content{
+    padding-left: 40px;
+}
+.header-feature{
+    padding-bottom: 10px;
+}

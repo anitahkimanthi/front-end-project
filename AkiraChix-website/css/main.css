@@ -1,0 +1,78 @@
+body{
+	background-color:white;
+	margin: 0;
+
+}
+.media{
+	margin-left: 1000px;
+}
+.media i{
+	font-size: 20px;
+	height: 0px;
+	color:grey;
+	padding-right:15px;  
+}
+p{
+	color: grey;
+}
+hr{
+	margin-top: 30px;
+}
+h1{
+	text-align:center;
+}
+
+h2{
+	font-size: 20px;
+	float:left;
+}
+
+ title title-1 img{
+	width:383px;
+	height: 150px;
+	color: white;
+}
+.images{
+	background-color: white;
+	float:left;
+}
+.anitah{
+	width:1366px;
+	margin:0 auto;
+	background-color:pink;
+	height: 800px;
+	padding: 30px;
+
+}
+header{
+
+	width:100%;
+	margin-top: -20px;
+	color: #424242;
+	font-size: 20px;
+
+}
+header ul{
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+}
+header ul li{
+	
+	margin:0px;
+	padding: 0px;
+	display: inline;
+}
+header ul li a{
+	color: #424242;
+	text-decoration: none;
+	display: inline-block;
+	padding: 25px 30px;
+}
+header ul li a:hover{
+	color: purple;
+}
+
+a{
+	text-decoration: none;
+}

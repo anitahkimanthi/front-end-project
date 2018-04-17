@@ -1,0 +1,150 @@
+body{
+
+	background-image: url(..//images/wood.jpg);
+}
+.opacity{
+		width: 364px;
+		height: 224px;
+		background-color: #fff;
+		background: rgba(255,255,255,0.5);
+		border-radius: 9px;
+		padding-top: 12px;
+		box-sizing: border-box;
+		margin: 0 auto;
+		margin-top: 150px;
+		position: relative;
+
+}
+form{
+	
+	width: 341px;
+	height: 199px;
+	margin-left: 12px;
+    padding-top: 12px;
+	background-color: #fff;
+	box-shadow: 0 2px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	border-radius: 4px;
+
+}
+span{
+	color: #ebe6e2; 
+}
+
+.username input{
+	margin-left: 16px;
+	float: left;
+	width: 138px;
+	height:26px;
+	color: #85807c;
+	margin-right: 16px;
+	border: 3px solid #ebe6e2;
+	border-radius: 4px;
+	padding-left: 6px;
+
+}
+.password input{
+	margin-left: 16px;
+	float: right;
+	width: 143px;
+	height:26px;
+	margin-top: -34px;
+	margin-right: 16px;
+	border: 3px solid #ebe6e2;
+	border-radius: 4px;
+	padding-left: 6px;
+
+
+
+}
+.twitter input{
+	margin-left: 9px;
+	float: left;
+	margin-left: 16px;
+	float: left;
+	width: 150px;
+	color: #fff;
+	height:36px;
+	border-style: none;
+	background-color: #2a9ecf;
+
+}
+.log input{
+	margin-left: 16px;
+	float: right;
+	width: 150px;
+	height:36px;
+	color: #9d600f;
+	margin-right: 16px;
+	background-color: #ffc148;
+	margin-top: -35px;
+	border-style: none;
+	
+}
+
+p{
+	margin-left: 16px;
+	margin-top: -1px;
+	margin-top: 5px;
+	font-size: 15px;
+
+}
+a{
+	color: #fdb636;
+}
+hr{
+	width: 312px;
+	margin-top: 5px;
+	padding: 0px;
+	margin-left:16px;
+
+
+}
+.check input{
+	margin-left: 214px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	font-size: 5px;
+	
+}
+.show {
+	color: #b6b2b1;
+	font-size: 15px;
+	float: right;
+	margin-top: 5px;
+	margin-right:16px
+
+}
+
+ .user h3{
+	margin-left: 9px;
+	font-size: 10px;
+	float: left;
+	margin-top: 3px;
+	margin-right: 19px;
+
+
+}
+.pass h3{
+	margin-left: 7px;
+	font-size: 10px;
+	float: right;
+	margin-top: -12px;
+	margin-right: 93px;
+
+}
+.use i{
+	float: left;
+	margin-left: 16px;
+	padding: 0;
+
+}
+.lock i{
+	float:right;
+	margin-left: 15px;
+	margin-right: 162px;
+	
+}
+b{
+	color: #6c6964;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ngara website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="js/bootstrap.js">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+      <!-- nav-bar section -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- logo section -->
+      <div class="col-sm-12 col-md-4">
+        <a href="index.html"><img src="images/logofull.png" style="margin-top: 25px;"></a>
+      </div>
+      <!-- page nav-bar section -->
+      <div class=" col-sm-12 col-md-8">
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">HOME</a>
+          <a href="service.html">SERVICES</a>
+          <a href="contact.html">CONTACT</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          <a href="login1.html" style="float: right;margin-right: 50px;background-color:  #4c97ae;color:#fff;">LOGIN</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+
+      <!-- login and sign up page -->
+
+  <div class="container-fluid" style="background-color: #4c97ae; padding-bottom: 100px;">
+    <div class="row">
+      <!-- empty div for space -->
+      <div class="col-sm-12 col-md-1 col-lg-2"></div>
+      <!-- login form -->
+      <div class="col-sm-12 col-md-4 col-lg-4 "  style="padding: 20px; margin-top: 30px;">
+        <div class="login-form">
+          <h5 style="color: #4c97ae">Login Form</h5>
+
+
+          <div class="alert-danger" id="login-errors"></div>
+          <div class="alert-success" id="login-form-success"></div>
+
+
+          <form id="login-form">
+            <input type="text" placeholder="Enter Email" name="uname" required id="email"><br>   
+            <input type="password" placeholder="Enter Password" name="psw" required id="password"><br>
+            <!-- <input type="checkbox" name="remember" class="checkbox"> <span >Remember me</span> -->
+            <button type="submit" style="width: 100%">Login</button>
+          </form>
+          <!-- <button type="submit" style="width: 100%; background-color: #f0555b">Cancel</button> -->
+        </div>
+      </div>
+      <!-- sign up form -->
+      <div class="col-sm-12 col-md-4 col-lg-4" style="padding: 20px;margin-top: 30px;">
+        <div class="login-form">
+          <h5 style="color:#4c97ae ">Sign up Form</h5>
+          <input type="text" placeholder="Enter Name" name="name" required >   
+          <input type="text" placeholder="Enter Email" name="email" required >   
+          <input type="text" placeholder="Enter Phone number" name="phnnumbr" required >   
+          <input type="password" placeholder="Enter Password" name="psw" required >    
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          <a href="index.html"><button type="submit" class="signupbtn" >Sign Up</button></a>
+        </div>
+      </div>
+      <!-- empty div for space -->
+      <div class="col-sm-12 col-md-2 col-lg-2"></div>
+    </div>
+  </div>
+      <!-- footer contact information -->
+    <div class="row footer">
+      <div class="col-sm-12 col-md-4"></div>
+      <div class="col-sm-12 col-md-4" style="text-align:center; margin-top: 20px;">
+        <br>
+        <h5 class="talk">LET'S TALK</h5>
+        <p>
+          <span>
+            <a href="" style="color: white;">
+              ngaraservice@gmail.com
+            </a>
+          </span>
+        </p>
+        <p>
+          <span>
+            Tel:
+            <tel>
+              +254 702228727
+            </tel>
+          </span>
+        </p>
+      <p>
+        <span>
+          Nairobi,Kenya
+        </span>
+      </p>
+
+      <h6>
+        NG'ARA OFFICE
+        <br>
+      </h6>
+      <p>
+        <span>
+          6th floor Senteu Plaza lenana road.
+        </span>
+      </p>
+      </div>
+    <div class="col-sm-12 col-md-4"></div>
+  </div>
+
+<!-- responsive nav-bar js -->
+    <script>
+      // function myFunction() {
+      // var x = document.getElementById("myTopnav");
+      //   if () {
+      //     x.className += " responsive";
+      //   } 
+      //   else {
+      //     x.className = "topnav";
+      //   }
+      // }
+
+      // handle login
+      $(document).on('submit', '#login-form', function(e){
+        // preventing default form behaviour
+        e.preventDefault()
+        // console.log("clicked me!")
+        // get data 
+        email = $("#email").val()
+        password = $("#password").val()
+
+        data = {
+          email: email,
+          password: password
+        }
+
+        // make ajax request
+        $.ajax({
+          url: "https://index-api-susanawiti.c9users.io/login/",
+          method: "post",
+          dataType: 'json',
+          data: data,
+          success: function(data){
+            $("#login-form-successkwmod").html(data.name + ", you have logged in successfully")
+            // console.log(data.name)
+          },
+          error: function(errors){
+            $("#login-form")[0].reset() // clear form
+            $("#login-errors").html(errors.responseJSON["error"]) // show errors
+
+          }
+        })
+      })
+
+
+
+
+       $(document).on('submit', '#login-form', function(e){
+        // preventing default form behaviour
+        e.preventDefault()
+        // console.log("clicked me!")
+        // get data 
+        email = $("#email").val()
+        password = $("#password").val()
+
+        data = {
+          email: email,
+          password: password
+        }
+
+        // make ajax request
+        $.ajax({
+          url: "https://index-api-susanawiti.c9users.io/login/ ",
+          method: "post",
+          dataType: 'json',
+          data: data,
+          success: function(data){
+            $("#login-form-successkwmod").html(data.name + ", you have logged in successfully")
+            // console.log(data.name)
+          },
+          error: function(errors){
+            $("#login-form")[0].reset() // clear form
+            $("#login-errors").html(errors.responseJSON["error"]) // show errors
+
+          }
+        })
+      })
+      
+
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

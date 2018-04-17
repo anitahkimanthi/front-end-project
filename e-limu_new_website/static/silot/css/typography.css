@@ -1,0 +1,16 @@
+/***
+font for the home page only i.e silot/index.html
+*/
+
+
+@media (max-width:500px){
+	footer li a{
+		font-size: 14px;
+	}
+	li h2{
+		font-size: 14px;
+	}
+}
+p{
+	font-size: 20px	
+}

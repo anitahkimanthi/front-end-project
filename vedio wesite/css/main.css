@@ -1,0 +1,72 @@
+body{
+	background-color:#ededed;
+	
+}
+header{
+	background-color: #31383e;
+	width:1180px;
+	height: 70px;
+	margin:0 auto;
+	margin-top: -15px;
+
+}
+#Joy{
+
+	background-color:white;
+	width:1180px;
+	height:930px;
+	margin:0 auto;
+	margin-top: -20px;
+	
+
+}
+.joy1{
+	width:560px;
+	height:315px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	float:left;
+
+}
+.joy2{
+	width:560px;
+	height:315px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float:right;
+
+}
+.joy3{
+	width:366.7px;
+	height:220px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float:left;
+}
+.joy4{
+	width:366.6px;
+	height:220px;
+	margin-right: 20px;
+	float:left;
+}
+.joy5{
+	width:366.6px;
+	height:220px;
+	margin-right: 20px;
+	float:left;
+
+}
+.joy6{
+	width:1140px;
+	height:350px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+
+ul{
+	margin-left: -20px;
+}

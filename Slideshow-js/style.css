@@ -1,0 +1,40 @@
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: blue;
+  	border-style: none;
+}
+
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  background-color: purple;
+ 
+}
+
+h2{
+  background-color: red;
+  position: absolute;
+  color: #000;
+}
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5 {
+  height: 130vh;
+  color: #000;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+
