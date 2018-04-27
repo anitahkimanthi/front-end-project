@@ -1,11 +1,12 @@
 /*
 *most popular pages on learn alias featured content
 */
-.popular-pages-header{
-    font-family: arial;
-    font-size: 1.6em;
-    margin-bottom:10px;
-    text-align:center;
+.popular-pages{
+    font-family: Arial, sans-serif;
+    margin-bottom: 0.6em;
+    padding-left: 0.8em;
+    box-sizing: border-box;
+
 }
 .subject:hover{
   background-color: #fff;
@@ -13,23 +14,20 @@
 
 .featured-content{
     background-color: #ea5729;
-    padding: 10px 0 10px 0;
-    color: #fff;
-    font-family: 'Kalam', sans-serif;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #fff;
-    border-radius: 5px;    
-    border: 1px solid #fff;
+    padding: 0.6em 0 0.6em 0;
+    border: 0.1em solid #fff;
+    border-radius: 5px;
         
 }
+
 .featured-content li{
-    font-size: 17px;
-    font-family: arial;
-    font-weight:normal;
-    margin-bottom: 10px;
+   
+    font-family: Arial, sans-serif;
+    margin-bottom: 0.5em !important;
+    font-weight: inherit;
     word-wrap: break-word;
 }
+
 .featured-content:hover a {
    color: #fff;
 }
@@ -40,17 +38,7 @@
    color: #303030;
 }
 
-.content{
-    font-family: 'Kalam', sans-serif;
-    font-weight: normal;
-    height: auto;
-    margin-top: 20px;
-    margin: 0 auto;
-}
 
-.link{
-    text-align: left;
-}
 .link:hover a{
     color: black;
 }
@@ -59,8 +47,8 @@
 }
 
 .list-content{
-    padding-left: 40px;
+    padding-left: 1.6em;
 }
 .header-feature{
-    padding-bottom: 10px;
+    padding-bottom: 0.6em;
 }
