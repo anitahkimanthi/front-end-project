@@ -37,6 +37,9 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus{
     height: 1.8em;
 }
 
+span{
+  text-decoration: underline;
+}
 /*subjects wrapper*/
 #wrapper-subjects{ 
   height: auto;
@@ -410,6 +413,9 @@ footer{
 }
 li {
     font-size: 1.5em;
+}
+.popular-pages{
+   font-size: 1.5em;
 }
 }
 /*end of media query range of min-width 500px and max width 992px */
