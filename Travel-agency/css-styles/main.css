@@ -21,36 +21,53 @@ ul{ display: inline-block; height: 00px;}
     width: 100%;
     padding: 20px; 
 }
-.navigation{
-    width: 400px;
-    margin: 0 auto;
-}
+
 .upper .row{ padding-top: 10px }
 .content .brand-logo{ width: 100px;}
 nav .nav-wrapper ul li a { margin-top: 30px; font-size: 1.1rem !important }
 
 
-@media all and (max-width:500px){
+
+@media all and (max-width:600px){
     .image{
         font-size: 15px !important;
 
     }
-   .content .brand-logo  {
-        width: 50px;
-        height: 50px;
-        border-radius: 25px;
-    }
+
     .content{
         margin-top: 50px;
     }
     .content{
         margin-top: 30px;
     }
+    .brand-logo{
+        display: none;
+    }
     }
 
-    @media screen and (min-width:500px){
-        .
-    }
+@media all and (min-width:600px){
+     
+    .row .col.offset-m2 {
+    margin-left: 0!important; 
+ }
+.row .col.offset-m1 {
+    margin-left: 0!important;
+}
+.navigation{
+    width: 476px;
+    margin: 0 auto;
+}
+
+nav ul a {
+    font-size: 1.5rem!important;
+}
+p{
+    font-size: 1.5rem!important;
+}
+b{
+    font-size: 2rem!important;
+}
+}
 
 .content{
     margin: 0 auto;
@@ -63,6 +80,9 @@ nav .nav-wrapper ul li a { margin-top: 30px; font-size: 1.1rem !important }
     width: 100%;
     margin: 0 auto;
 }
+li{
+    font-size: 20px;
+}
 
 .image img {
     vertical-align: middle;
@@ -70,7 +90,13 @@ nav .nav-wrapper ul li a { margin-top: 30px; font-size: 1.1rem !important }
     height: auto;
 
 }
-
+.transparent{
+    display: all
+}
+.col .s12 .m5 .l5  .mision{
+    left: 50px;
+    right: 50px;
+}
 .image .cover {
     position: absolute;
     bottom: 0;
@@ -135,7 +161,7 @@ nav .nav-wrapper ul li a { margin-top: 30px; font-size: 1.1rem !important }
 .outer { position: relative; margin-top: 20px; width: 100%; background-size: cover; background-attachment: fixed; background-image:url(../img/m2.jpg); height:400px }
 .top { position: relative; height:400px; text-align:center; background:rgba(174,213,129,0.6); }
 .top .mision { color: white !important }
-.top .row { padding-top:80px; box-sizing: border-box }
+
 
 /*booking styles*/
 .card-image { height: 250px !important;}

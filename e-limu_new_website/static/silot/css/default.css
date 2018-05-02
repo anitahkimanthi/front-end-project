@@ -392,12 +392,14 @@ footer{
     float:left;
 
   }
+
   .dashboard{
     width:50%;
     float:right;
   }
   
 }
+
 /*end of min-width of 700px*/
 
 @media only screen and (max-width: 992px) and (min-width: 500px){
